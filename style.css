@@ -1,0 +1,47 @@
+body {
+	background: #f1f3f3;
+	font-family: montserrat;
+}
+.header {
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.header span {
+	color: #c04848;
+}
+.sub-text {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto 5%;
+}
+.single-service {
+	padding: 35px;
+	transition: all .5s ease;
+}
+.img-area {
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 50%;
+}
+.img-area img {
+	width: 100%;
+}
+.single-service h2 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.single-service h4 {
+	font-size: 16px;
+	font-weight: 500;
+}
+.socials i {
+	margin: 0 15px;
+}
+.single-service:hover {
+	background: radial-gradient(circle, #c04848, #480048);
+	color: #fff;
+}
